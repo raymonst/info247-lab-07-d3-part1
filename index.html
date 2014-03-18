@@ -1,0 +1,47 @@
+<!--
+
+In this lab, you will learn how to create a simple interactive data visualization using D3.js in conjunction with other web technologies you have learned so far, such as HTML, CSS, & Javascript/jQuery.
+
+You have a small dataset consisting of students and their grades. Your tasks are as follow: 
+1. Using D3.js, create a bar chart that shows each student & his/her grade accordingly.
+2. If the student's score is lower than 60, change the bar's color to red to indicate s/he failed the test.
+3. Create a hover event that shows the student's score when the cursor is inside the bar.
+
+If you need more guidance, link this file to "_js/script-beginner.js". Otherwise, link it to "_js/script-advanced.js"
+
+You may find the SVG documentation helpful:
+* https://developer.mozilla.org/en-US/docs/Web/SVG/Element
+* https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute
+
+-->
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="description" content="description">
+	<meta name="keywords" content="keywords">
+	<link rel="stylesheet" type="text/css" href="_css/style.css" />
+	<script type="text/javascript" src="_js/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="_js/d3.min.js"></script>	
+	<script type="text/javascript" src="_js/script-beginner.js"></script>	
+	<title>INFO 247 - D3.js part 1</title>
+</head>
+
+<body>
+	
+<section>
+
+	<main>
+		<h1>Student Grades</h1>
+		<svg id="viz" xmlns="http://www.w3.org/2000/svg" version="1.1">
+		</svg>
+		<div id="score-popup"></div>
+	</main>
+	
+</section>
+	
+</body>
+</html>
